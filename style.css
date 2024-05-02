@@ -1,5 +1,5 @@
 
-
+/* 
   .navbar-brand>img {
     margin-left: 600px;
   }
@@ -13,7 +13,8 @@
     }
 
     .navbar-brand img {
-      margin: 0; /* Reset margin for small screens */
+      margin: 0; 
+     
     }
 
     .btn-secondary {
@@ -28,6 +29,38 @@
   }
 
 
+
+
+
   .btn-primary {
    margin-left: 0px;
+  }
+
+  .navbar-brand img {
+
+  } */
+
+
+
+
+
+
+
+
+  .navbar {
+    position: relative;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    left: 1000px; /* Move the logo 100px to the left */
+  }
+
+  @media (max-width: 768px) {
+    .navbar-brand {
+      position: static; /* Reset position for small screens */
+      padding-left: 100px; /* Add padding instead of absolute positioning */
+      display: flex;
+      align-items: center;
+    }
   }
