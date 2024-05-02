@@ -1,44 +1,4 @@
 
-/* 
-  .navbar-brand>img {
-    margin-left: 600px;
-  }
-  
-
-  @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: stretch;
-      
-    }
-
-    .navbar-brand img {
-      margin: 0; 
-     
-    }
-
-    .btn-secondary {
-        margin-left: 0;
-    }
-
-    .btn .btn-primary {
-        margin: 0;
-    }
-
-
-  }
-
-
-
-
-
-  .btn-primary {
-   margin-left: 0px;
-  }
-
-  .navbar-brand img {
-
-  } */
 
 
 
@@ -46,8 +6,29 @@
   .btn-secondary {
     position: relative;
     left: 550px; /* Move the button 50px to the left */
+    background: none;
+    color: rgb(85, 84, 84);
+    border: none;
   }
 
+
+  .btn-secondary {
+    background: none;
+    color: rgb(85, 84, 84);
+    border: none;
+
+  }
+
+  .btn-primary {
+    background: none;
+    color: rgb(85, 84, 84);
+    border: none;
+  }
+  .offcanvas {
+    margin-left: 0.4%;
+    margin-top: 0.4%;
+    height: 96%;
+  }
 
 
   .navbar {
@@ -56,7 +37,7 @@
 
   .navbar-brand {
     position: absolute;
-    left: 1000px; /* Move the logo 100px to the left */
+    left: 900px; /* Move the logo 100px to the left */
   }
 
   @media (max-width: 768px) {
