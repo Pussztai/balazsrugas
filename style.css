@@ -43,7 +43,10 @@
 
 
 
-
+  .btn-secondary {
+    position: relative;
+    left: 550px; /* Move the button 50px to the left */
+  }
 
 
 
@@ -59,8 +62,16 @@
   @media (max-width: 768px) {
     .navbar-brand {
       position: static; /* Reset position for small screens */
-      padding-left: 100px; /* Add padding instead of absolute positioning */
+      padding-left: 20px; /* Add padding instead of absolute positioning */
       display: flex;
       align-items: center;
     }
+
+
+    .btn-secondary {
+        left: 0; /* Reset positioning for small screens */
+        position: static;
+        margin-left: -20px; /* Adjust margin instead of relative positioning */
+        
+      }
   }
