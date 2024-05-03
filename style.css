@@ -8,7 +8,7 @@ margin-top: -60px;
 
   .btn-secondary {
     position: relative;
-    left: 550px; /* Move the button 50px to the left */
+    left: 500px; /* Move the button 50px to the left */
     background: none;
     color: white;
     border: none;
@@ -47,6 +47,7 @@ margin-top: -60px;
   .navbar-brand {
     position: absolute;
     left: 900px; /* Move the logo 100px to the left */
+    margin-top: -50px;
   }
 
   @media (max-width: 768px) {
@@ -55,6 +56,7 @@ margin-top: -60px;
       padding-left: 20px; /* Add padding instead of absolute positioning */
       display: flex;
       align-items: center;
+      width: 50%;
     }
 
 
@@ -62,10 +64,41 @@ margin-top: -60px;
         left: 0; /* Reset positioning for small screens */
         position: static;
         margin-left: -20px; /* Adjust margin instead of relative positioning */
+       
         
       }
 
       header {
         margin-top: -130px;
+       
       }
+
+  }
+  
+  
+  @media (max-width: 2560px) {
+    .navbar-brand {
+      position: static; /* Reset position for small screens */
+      padding-left: 20px; /* Add padding instead of absolute positioning */
+      display: flex;
+      align-items: center;
+     
+    }
+
+
+    
+    .btn-secondary {
+      left: 0; /* Reset positioning for small screens */
+      
+    
+     
+      
+    }
+
+
+      header {
+        margin-top: -130px;
+       
+      }
+      
   }
