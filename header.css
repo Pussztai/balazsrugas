@@ -1,0 +1,10 @@
+header {
+    margin-top: -100px;
+  }
+
+ header span .custom2{
+   background-color: red;
+  }
+  header img {
+    width: 100%;
+  }

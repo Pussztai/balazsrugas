@@ -1,8 +1,6 @@
 /* nav */
 
-header {
-  margin-top: -60px;
-}
+
 
 .btn-secondary {
   position: relative;
@@ -26,6 +24,9 @@ header {
   color: white;
   border: none;
 }
+.dropdown-menu li {
+ text-decoration: none;
+}
 
 
 
@@ -39,7 +40,7 @@ header {
 
 .navbar-brand {
   position: absolute;
-  margin-left: 350px; /* Move the logo 100px to the left */
+  margin-left: 260px; /* Move the logo 100px to the left */
   margin-top: -50px;
   flex: 1; /* Allow the navbar-brand to grow and take up available space */
   max-width: 200px;
@@ -57,7 +58,7 @@ header {
   }
 
   .navbar-brand img {
-    margin-left: -45px;
+    margin-left: -55px;
   }
 
   .btn-secondary {

@@ -25,12 +25,14 @@ text-decoration: underline solid 1px black;
 
 }
 
-.dropdown-menu {
-  z-index: 5000;
+
+
+.kosar {
+  margin-left: 42%;
+  margin-top: 3%;
+  font-size: 18px;
+  font-weight: bold;
 }
-
-
-
 
  .offcanvas {
   margin-right: 2%;
@@ -61,7 +63,7 @@ margin-top: 40%;
 
 
 
-.offcanvas-body3  .number {
+ .offcanvas-body3  .number {
 margin-left: 62%;
 margin-top: -6%;
 background-color: black;
@@ -69,6 +71,6 @@ border-radius: 40px;
 width: 18px;
 color: white;
 text-align: center;
-}
+} 
 
 
