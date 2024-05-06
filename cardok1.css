@@ -1,0 +1,15 @@
+.row {
+    margin-top: 20%;
+   
+}
+.card {
+    width: 100%;
+}
+
+.custom {
+    height: 200px;
+}
+
+.af1:hover {
+    content: url("card-img/card-airforce1.jpg");
+}
