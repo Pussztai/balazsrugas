@@ -1,18 +1,38 @@
+/* best seller sor */
+
 .row {
     margin-top: 20%;
+    margin-left: 5%;
    
 }
+
 .card {
     /* width: 25%; */
-    width: 29rem;
+    width: 26rem;
 }
+
+
+/* különleges sor */
+
+
+
 
 .card img {
     cursor: pointer;
 }
+
+
+
 .custom {
     height: 80%;
 }
+
+
+.bestseller {
+    font-weight: bold;
+     font-size: 3rem; 
+}
+
 
 .af1:hover {
     content: url("card-img/card-airforce1.jpg");
