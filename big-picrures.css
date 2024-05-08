@@ -1,0 +1,11 @@
+section .card {
+    width: 35rem;
+}
+
+@media (max-width: 767px) {
+    .custom-big {
+      width: 50%;
+      margin-left: 0;
+      padding: 0;
+    }
+  }

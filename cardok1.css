@@ -37,3 +37,15 @@
 .af1:hover {
     content: url("card-img/card-airforce1.jpg");
 }
+
+@media (max-width: 767px) {
+    .card {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .card {
+      width: 50%;
+    }
+  }
