@@ -33,9 +33,13 @@
      font-size: 3rem; 
 }
 
+.mosterkezett {
+  color: burlywood;
+}
+
 
 .af1:hover {
-    content: url(card-img/card-airforce1-front.jpg);
+    content: url(card-img/card-airforce1.jpg);
 }
 
 @media (max-width: 767px) {

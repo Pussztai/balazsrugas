@@ -1,0 +1,27 @@
+.row2 {
+    margin-top: 20%;
+}
+
+.elvalasztocontainer img {
+ filter: brightness(50%); 
+/* background: rgba(76, 50, 20, 40); */
+}
+
+.centered {
+      position: absolute;
+    /* top: 10%; */
+    margin-top: -20%;
+    left: 50%; 
+      transform: translate(-50%, -50%); 
+    z-index: 5000; 
+    color: #FFFFFF;
+    font-size: 40px;
+   
+    font-weight: bold;
+   
+  }
+
+  .elvalasztocontainer span {
+    display: block;
+    margin-left: 30%;
+  }
