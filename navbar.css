@@ -46,6 +46,11 @@
   max-width: 200px;
 }
 
+
+
+
+
+
 @media (max-width: 768px) {
   .navbar-brand {
     position: static; /* Reset position for small screens */

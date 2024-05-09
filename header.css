@@ -8,3 +8,10 @@ header {
   header img {
     width: 100%;
   }
+ 
+  @media (max-width: 340px){
+    header img {
+      width: 500%;
+      
+    }
+  }
