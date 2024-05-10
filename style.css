@@ -1,0 +1,426 @@
+/* navbar  !important*/
+
+/* nav  */
+
+
+
+.btn-secondary {
+    position: relative;
+    left: 500px; /* Move the button 50px to the left */
+    background: none;
+    color: white;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background: none;
+    color: white;
+    border: none;
+  }
+  .btn-third {
+    color: white;
+  }
+  
+  .btn-primary {
+    background: none;
+    color: white;
+    border: none;
+  }
+  .dropdown-menu li {
+   text-decoration: none;
+  }
+  
+  
+  
+  
+  
+  .navbar {
+    position: relative;
+    background-color: transparent; /* Set the background color as transparent */
+    z-index: 4000;
+  }
+  
+  .navbar-brand {
+    position: absolute;
+    margin-left: 260px; /* Move the logo 100px to the left */
+    margin-top: -50px;
+    flex: 1; /* Allow the navbar-brand to grow and take up available space */
+    max-width: 200px;
+  }
+  
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      position: static; /* Reset position for small screens */
+      padding-left: -20px; /* Add padding instead of absolute positioning */
+      display: flex;
+      align-items: center;
+      width: 20px;
+      max-width: 160px;
+      margin-left: 0;
+    }
+  
+    .navbar-brand img {
+      margin-left: -65px;
+    }
+  
+    .btn-secondary {
+      left: 0; /* Reset positioning for small screens */
+      position: static;
+      margin-left: -20px; /* Adjust margin instead of relative positioning */
+    }
+  
+    header {
+      margin-top: -130px;
+    }
+  }
+  
+  @media (max-width: 2560px) {
+    .navbar-brand {
+      position: static; /* Reset position for small screens */
+      padding-left: 20px; /* Add padding instead of absolute positioning */
+      align-items: center;
+    }
+  
+    .btn-secondary {
+      left: 0; /* Reset positioning for small screens */
+    }
+  
+    header {
+      margin-top: -130px;
+    }
+  }
+  
+  @media (max-width: 986px) {
+    .navbar-brand {
+      position: static; /* Reset position for small screens */
+      padding-left: 20px; /* Add padding instead of absolute positioning */
+      /* display: flex; */
+      align-items: center;
+      margin-left: 0;
+    }
+  }
+
+
+
+/* offcanvas !important */
+
+.offcanvas-header1 .btn-close {
+    margin-left: -3px;
+    margin-top: 2px;
+    border: 0.3px ridge grey;
+    border-radius: 40px;
+  }
+  
+   .offcanvas-start1 {
+    margin-left: 2%;
+    margin-top: 4%;
+    height: 96%;
+  } 
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+  text-decoration: underline solid 1px black;
+  
+  }
+  
+  
+  
+  .kosar {
+    margin-left: 42%;
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  .customoffcanvas {
+    margin-left: 2%;
+  }
+  
+   .offcanvas {
+    margin-right: 2%;
+    margin-top: 1%;
+    height: 96%;
+  } 
+  
+  
+  
+  
+  
+  .custom input {
+  padding: 10px;
+  }
+  
+  .custom input::placeholder {
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  
+  .offcanvas-body3 span {
+  margin-left: 50%;
+  font-size: 55px;
+  margin-top: 40%;
+  
+  }
+  
+  
+  
+   .offcanvas-body3  .number {
+  margin-left: 62%;
+  margin-top: -6%;
+  background-color: black;
+  border-radius: 40px;
+  width: 18px;
+  color: white;
+  text-align: center;
+  } 
+  
+  
+  
+
+
+
+  
+  /* header (slider)  !important*/
+
+
+  header {
+    margin-top: -100px;
+  }
+
+ header span .custom2{
+   background-color: red;
+  }
+  header img {
+    width: 100%;
+  }
+ 
+  @media (max-width: 340px){
+    header img {
+      width: 500%;
+      
+    }
+  }
+
+
+  /* cardok 1 resz !important*/
+
+
+
+  /* best seller sor */
+
+.row {
+    margin-top: 10%;
+    margin-left: 5%;
+   
+}
+
+.card {
+    /* width: 25%; */
+    width: 26rem;
+}
+
+
+/* különleges sor */
+
+
+
+
+.card img {
+    cursor: pointer;
+}
+
+
+
+.custom {
+    height: 80%;
+}
+
+
+.bestseller {
+    font-weight: bold;
+     font-size: 3rem; 
+}
+
+.mosterkezett {
+  color: burlywood;
+}
+
+
+
+
+/* cipo mozgatas !important */
+
+
+.yzRNR:hover {
+    content: url(card-img/card-yeezyrnr.jpg);
+}
+
+.af1:hover {
+    content: url(card-img/card-airforce1.jpg);
+}
+
+.panda:hover {
+    content: url(card-img/card-pandaoldal.jpg);
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .card {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .card {
+      width: 50%;
+    }
+  }
+
+
+
+  /* big pictures !important */
+
+
+  section .card {
+    width: 35rem;
+}
+
+.fejlec-bigpicture {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+  .swiper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .swiper-slide {
+    flex: 0 0 auto;
+    margin-right: 10px; 
+    scroll-snap-align: start;
+  }
+  
+  .rownospacebig {
+    margin-top: 10%;
+  }
+
+
+  /* elvalaszto !important */
+
+
+  .row2 {
+    margin-top: 8%;
+}
+
+.elvalasztocontainer img {
+ filter: brightness(50%); 
+}
+
+/* .centered {
+      position: absolute;
+    margin-top: -20%;
+    left: 50%; 
+      transform: translate(-50%, -50%); 
+    z-index: 5000; 
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .elvalasztocontainer span {
+    display: inline-block;
+    margin-left: 20%;
+  } */
+
+
+  .centered p {
+    margin: 0;
+   
+  }
+ 
+  .szovegelvalasz {
+    color: white;
+    position: absolute;
+    margin-top: -20%;
+    left: 50%; 
+      transform: translate(-50%, -50%); 
+    z-index: 5000; 
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+
+  @media (max-width: 576px) {
+    /* Adjust font size for smaller screens */
+    .szovegelvalasz {
+      font-size: 14px;
+    }
+  }
+
+
+
+  /* streetwear !important */
+
+  .rownospace {
+    margin-top: 10% ;
+  }
+
+
+  footer {
+    background-color: black;
+  }
+
+  footer table {
+    background-color: black;
+
+  }
+
+footer  .hatter {
+    background-color: black !important;
+    color: white;
+}
+
+.customtab a {
+color: white;
+text-decoration: none;
+}
+
+.customtab {
+  width: 60%;
+  margin-left: 23%;
+  margin-top: 10%;
+
+  
+}
+

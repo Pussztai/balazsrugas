@@ -26,10 +26,7 @@ section .card {
     scroll-snap-align: start;
   }
   
-  /* stilus a big cardoknak */
-  /* .custom-big {
-    width: 100%; 
-    max-width: 300px; 
+  .rownospacebig {
+    margin-top: 10%;
   }
-   */
 

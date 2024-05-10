@@ -1,27 +1,49 @@
 .row2 {
-    margin-top: 20%;
+    margin-top: 8%;
 }
 
 .elvalasztocontainer img {
  filter: brightness(50%); 
-/* background: rgba(76, 50, 20, 40); */
 }
 
-.centered {
+/* .centered {
       position: absolute;
-    /* top: 10%; */
     margin-top: -20%;
     left: 50%; 
       transform: translate(-50%, -50%); 
     z-index: 5000; 
     color: #FFFFFF;
     font-size: 40px;
-   
     font-weight: bold;
-   
   }
 
   .elvalasztocontainer span {
-    display: block;
-    margin-left: 30%;
+    display: inline-block;
+    margin-left: 20%;
+  } */
+
+
+  .centered p {
+    margin: 0;
+   
+  }
+ 
+  .szovegelvalasz {
+    color: white;
+    position: absolute;
+    margin-top: -20%;
+    left: 50%; 
+      transform: translate(-50%, -50%); 
+    z-index: 5000; 
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+
+  @media (max-width: 576px) {
+    /* Adjust font size for smaller screens */
+    .szovegelvalasz {
+      font-size: 14px;
+    }
   }
