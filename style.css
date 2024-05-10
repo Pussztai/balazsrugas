@@ -121,9 +121,7 @@ a {
 /* sneaker dropdown */
 
 
-ul .dropdown-menu.show {
-  
-}
+
 
 
 
@@ -307,6 +305,61 @@ ul .dropdown-menu.show {
 
 
 
+
+/* jordanek */
+
+
+.jordan1red:hover {
+  content: url(jordan-img/jordan\ 1\ red\ oldal.png);
+}
+
+.jordan1b:hover {
+content: url(jordan-img/jordan\ 1\ blue\ oldal\ copy\ 2.png);
+}
+
+.jordan1fxp:hover {
+  content: url(jordan-img/jordan\ 1\ fekete\ piros\ oldal.png);
+}
+
+.jordan1zöld:hover {
+  content: url(jordan-img/jordan\ 1\ zold\ oldal.png);
+}
+
+.jordan1szürke:hover {
+  content: url(jordan-img/jordan\ 1\ szürke\ oldal.jpg);
+}
+
+.jordan1smoke:hover {
+  content: url(jordan-img/jordan1\ smoke\ oldal.jpg);
+}
+
+.jordan1yellow:hover {
+  content: url(jordan-img/jordan\ 1\ yellow\ oldal.png);
+}
+
+.jordan1obsidian:hover {
+  content: url(jordan-img/jordan\ 1\ obisidan\ oldal.png);
+}
+
+.jordan4millitary:hover {
+  content: url(jordan-img/jordan\ 4\ millitary\ oldal.png);
+}
+
+.jordan4kekes:hover {
+  content: url(jordan-img/jordan\ 4\ kekes\ oldal.png);
+}
+
+.jordan4pirosas:hover {
+  content: url(jordan-img/jordan\ 4\ piros\ feher\ oldal.png);
+}
+
+.jordan4yellow:hover {
+  content: url(jordan-img/jordan\ 4\ sarga\ oldal.png);
+}
+
+
+
+
 @media (max-width: 767px) {
     .card {
       width: 50%;
@@ -449,6 +502,9 @@ text-decoration: none;
 }
 
 
+
+
+
 @media (max-width: 578px) {
   .table-responsive {
     overflow-x: auto;
@@ -496,9 +552,36 @@ text-decoration: none;
 } 
 
 
-/* jordan 1 resz  */
+
+/* balazsrugas moving */
 
 
-/* .jordan1card  {
-  margin-left: 6%;
-} */
+.text-wrapper h1 {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vw; 
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  padding: 0 10%; 
+  letter-spacing: 1px;
+  animation: move-rtl 6000ms linear infinite;
+} 
+
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+ 
+}
+
+@keyframes move-rtl {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
