@@ -1,3 +1,10 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 /* navbar  !important*/
 
 /* nav  */
@@ -108,6 +115,21 @@
 
 
 /* offcanvas !important */
+
+
+
+/* sneaker dropdown */
+
+
+ul .dropdown-menu.show {
+  
+}
+
+
+
+
+
+/* masik offcanvasok */
 
 .offcanvas-header1 .btn-close {
     margin-left: -3px;
@@ -334,6 +356,13 @@
     margin-top: 10%;
   }
 
+/* section .card-title {
+text-align: center;
+font-weight: bold;
+font-size: 2rem;
+} */
+
+
 
   /* elvalaszto !important */
 
@@ -346,21 +375,7 @@
  filter: brightness(50%); 
 }
 
-/* .centered {
-      position: absolute;
-    margin-top: -20%;
-    left: 50%; 
-      transform: translate(-50%, -50%); 
-    z-index: 5000; 
-    color: #FFFFFF;
-    font-size: 40px;
-    font-weight: bold;
-  }
 
-  .elvalasztocontainer span {
-    display: inline-block;
-    margin-left: 20%;
-  } */
 
 
   .centered p {
@@ -397,6 +412,9 @@
   }
 
 
+/* footer !important */
+
+
   footer {
     background-color: black;
   }
@@ -418,9 +436,69 @@ text-decoration: none;
 
 .customtab {
   width: 60%;
-  margin-left: 23%;
+  /* margin-left: 23%; */
   margin-top: 10%;
 
   
 }
 
+.table-responsive {
+  margin-left: 30%;
+  width: 80%;
+
+}
+
+
+@media (max-width: 578px) {
+  .table-responsive {
+    overflow-x: auto;
+   margin-left: 0%;
+   width: 100%;
+  }
+  .table-bordered td,
+  .table-bordered th {
+    border: none; /* Optional: Remove borders for better appearance */
+  }
+  .table-bordered td {
+    display: block; /* Display table cells as blocks */
+  }
+  .table-bordered td:first-child {
+    border-top: none; /* Optional: Remove top border for the first cell in each row */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sneaker html oldal */
+
+
+.navbar-black {
+  background-color: black;
+}
+
+
+ main  .jordanindex {
+  margin-left: 0%;
+  width: 100%;
+  margin-top: 3%;
+} 
+
+
+/* jordan 1 resz  */
+
+
+/* .jordan1card  {
+  margin-left: 6%;
+} */
