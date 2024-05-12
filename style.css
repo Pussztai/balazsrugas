@@ -51,14 +51,20 @@ a:visited {
     position: relative;
     background-color: transparent; /* Set the background color as transparent */
     z-index: 4000;
+  
   }
   
   .navbar-brand {
     position: absolute;
     margin-left: 260px; /* Move the logo 100px to the left */
-    margin-top: -50px;
+    margin-top: -80px;
     flex: 1; /* Allow the navbar-brand to grow and take up available space */
     max-width: 200px;
+  }
+
+  .navbar-brand img {
+  display: inline-block;
+  /* margin-top: 15%; */
   }
   
   
@@ -75,27 +81,55 @@ a:visited {
       width: 20px;
       max-width: 160px;
       margin-left: 0;
+      
     }
   
     .navbar-brand img {
-      margin-left: -65px;
+      margin-left: -1px;
+      margin-top: -40px;
     }
-  
+
+
     .btn-secondary {
       left: 0; /* Reset positioning for small screens */
       position: static;
       margin-left: -20px; /* Adjust margin instead of relative positioning */
+      margin-top: -40px;
+    }
+
+    .btn-primary {
+      margin-top: -40px;
+    }
+
+    .btn-third {
+      margin-top: -40px;
     }
   
     header {
-      margin-top: -130px;
+      margin-top: -110px;
     }
+
+    header img {
+      margin-top: 86px;
+    }
+
+    .carousel-control-prev.kovi {
+      margin-top: 35%;
+    } 
+    
+    .carousel-control-next.kovi {
+      margin-top: 35%;
+    }
+
+ 
+
+
   }
   
   @media (max-width: 2560px) {
     .navbar-brand {
-      position: static; /* Reset position for small screens */
-      padding-left: 20px; /* Add padding instead of absolute positioning */
+      position: static; 
+      padding-left: 20px; 
       align-items: center;
     }
   
@@ -108,15 +142,15 @@ a:visited {
     }
   }
   
-  @media (max-width: 986px) {
+  /* @media (max-width: 986px) {
     .navbar-brand {
-      position: static; /* Reset position for small screens */
-      padding-left: 20px; /* Add padding instead of absolute positioning */
-      /* display: flex; */
+      position: static; 
+      padding-left: 20px; 
+      
       align-items: center;
       margin-left: 0;
     }
-  }
+  } */
 
 
 
@@ -162,7 +196,7 @@ a:visited {
   
   }
   
-  
+
   
   .kosar {
     margin-left: 42%;
@@ -226,7 +260,7 @@ a:visited {
 
 
   header {
-    margin-top: -100px;
+    margin-top: -210px;
   }
 
  header span .custom2{
@@ -235,6 +269,8 @@ a:visited {
   header img {
     width: 100%;
   }
+
+
  
   @media (max-width: 340px){
     header img {
@@ -651,9 +687,10 @@ text-decoration: none;
 }
 
 .leiras span {
-  padding: 12px 20px ;
+  padding: 10px 20px  ;
 color: black;
   margin: 5px;
+
 background-color: rgb(255, 255, 255);
 border-radius: 6px;
 border: 1px solid black;
@@ -674,10 +711,6 @@ cursor: pointer;
   cursor: pointer;
 }
 
-/* video {
-  width: 20%;
-  margin-left: 8%;
-} */
 
 
 video {
@@ -694,4 +727,38 @@ video {
 .videotitle {
   margin-top: 30%;
   margin-left: 20%;
+}
+
+
+
+/* shieldek */
+
+.shieldek {
+  margin-top: 20%;
+
+}
+
+.shield {
+  height: 90px;
+  width: 70%;
+}
+
+.checkbox {
+  margin-top: 25px;
+  margin-left: 10px;
+  /* padding: 24px; */
+}
+
+.kepp {
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+.shieldleiras {
+  margin-left: 120px;
+  margin-top: -48px;
+}
+
+.shieldara {
+  margin-left: 120px;
 }

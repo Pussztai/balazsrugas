@@ -15,26 +15,23 @@
 
 
 
-    <nav class="navbar navbar-black">
-        <div class="container">
-          <div class="nav-item">
-            <button class="btn btn-primary" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-              <span class="material-symbols-outlined">menu</span>
-            </button>
+  <nav class="navbar navbar-black" >
+    <div class="container">
+      <div class="nav-item">
+        <button class="btn btn-primary" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+        <div class="offcanvas offcanvas-start customoffcanvas" data-bs-scroll="true"  id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptions">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-            <div class="offcanvas offcanvas-start customoffcanvas" data-bs-scroll="true"  id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptions">
-              <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul>
-                 
-                    <li><a href="index.html" target="_self">Főoldal</a></li>
-                 
-                  
-    
-                   
-                  
+          <div class="offcanvas-body">
+            <ul>
+              <a href="index.html" target="_self">
+                <li>Főoldal</li>
+              </a>
+              
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Sneakers
@@ -52,76 +49,77 @@
             <li>
               Akciók
             </li>
-    
-                </ul>
-              </div>
-            </div>
-         
-        
-    
-    <!-- logo -->
-    
-    
-          <a class="navbar-brand" href="index.html" target="_self">
-            <img src="rugas2.webp" alt="Bootstrap" height="104">
-          </a>
-    
-    
-    
-    <!-- search -->
-    
-    
-          <div class="nav-item">
-            <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-              <span class="material-symbols-outlined">search</span>
-            </button>
-         
-            <div class="offcanvas offcanvas-end"  id="offcanvasRight" aria-labelledby="offcanvasRight">
-              <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                
-    
-             
-              
-                  <input class="form-control border border-0 " id="myInput" type="text" placeholder="kereses...">
-                  <hr>
-    
-                
-    
-    
-    
-    
-              </div>
-            </div>
-          </div>
-    
           
-             
-    <!-- cart -->
-    
-    
-          <div class="nav-item">
-            <button class="btn btn-third" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightCart" aria-controls="offcanvasRightCart">
-              <span class="material-symbols-outlined">shopping_cart</span>
-            </button>
-            <div class="offcanvas offcanvas-end"  id="offcanvasRightCart" aria-labelledby="offcanvasRightCart">
-              <div class="offcanvas-header">
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body3">
-                
-    
-                <span class="material-symbols-outlined">shopping_cart</span> <div class="number">0</div>
-               <div class="kosar">A kosarad üres</div>
-    
-    
-              </div>
-            </div>
+
+            </ul>
           </div>
         </div>
-    </nav>
+     
+    
+
+<!-- logo -->
+
+
+      <a class="navbar-brand" href="index.html" target="_self" style="margin-top: -1%;">
+        <img src="logo/logo-oldal (1).png" alt="Bootstrap">
+      </a>
+
+
+
+<!-- search -->
+
+
+      <div class="nav-item">
+        <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <span class="material-symbols-outlined">search</span>
+        </button>
+     
+        <div class="offcanvas offcanvas-end"  id="offcanvasRight" aria-labelledby="offcanvasRight">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            
+
+         
+          
+              <input class="form-control border border-0 " id="myInput" type="text" placeholder="kereses...">
+              <hr>
+
+            
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+      
+         
+<!-- cart -->
+
+
+      <div class="nav-item">
+        <button class="btn btn-third" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightCart" aria-controls="offcanvasRightCart">
+          <span class="material-symbols-outlined">shopping_cart</span>
+        </button>
+        <div class="offcanvas offcanvas-end"  id="offcanvasRightCart" aria-labelledby="offcanvasRightCart">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body3">
+            
+
+            <span class="material-symbols-outlined">shopping_cart</span> <div class="number">0</div>
+           <div class="kosar">A kosarad üres</div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+</nav>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
     
     
@@ -154,12 +152,44 @@
 </div>
 
 
-
-
-
   <h3>Méretek</h3>
 <div class="meretek">
-<span>36</span> <span>37</span> <span>37</span> <span>37</span> 
+<span>37</span> <span>38</span> <span>39</span> <span>40</span>  <span>41</span>   <span>42</span> 
+</div>
+<div class="meretek">
+<span>43</span> <span>44</span> <span>45</span> <span>46</span>  
+</div>
+
+
+
+
+<div class="container-fluid shieldek">
+<div class="card shield">
+
+  <div class="checkbox"><input type="checkbox"></div>
+<div class="kepp"><img src="shoe-buying-img/shield1.avif" class="img-fluid" width="30%" alt=""></div>
+<div class="shieldleiras">shieldgec</div>
+<div class="shieldara">3000</div>
+
+</div>
+<div class="card shield">
+
+  <div class="checkbox"><input type="checkbox"></div>
+<div class="kepp"><img src="shoe-buying-img/shield1.avif" class="img-fluid" width="30%" alt=""></div>
+<div class="shieldleiras">shieldgec</div>
+<div class="shieldara">3000</div>
+
+</div>
+<div class="card shield">
+
+  <div class="checkbox"><input type="checkbox"></div>
+<div class="kepp"><img src="shoe-buying-img/shield1.avif" class="img-fluid" width="30%" alt=""></div>
+<div class="shieldleiras">shieldgec</div>
+<div class="shieldara">3000</div>
+
+</div>
+
+
 </div>
 
   </div>
@@ -211,29 +241,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-    
-    
-
-    
 
 </main>
 
