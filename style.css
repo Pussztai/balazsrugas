@@ -296,7 +296,9 @@ a:visited {
     width: 100%;
   }
 
-
+  .carousel-item img {
+    height: 950px;
+  }
  
   @media (max-width: 340px){
     header img {
@@ -376,121 +378,144 @@ a:visited {
 
 
 .jordan1red:hover {
-  content: url(jordan-img/jordan\ 1\ red\ oldal.png);
+  content: url(jordan-img/jordan_1_red_oldal.png);
 }
 
 .jordan1b:hover {
-content: url(jordan-img/jordan\ 1\ blue\ oldal\ copy\ 2.png);
+content: url(jordan-img/jordan_1_blue_oldal.png);
 }
 
 .jordan1fxp:hover {
-  content: url(jordan-img/jordan\ 1\ fekete\ piros\ oldal.png);
+  content: url(jordan-img/jordan_1_fekete_piros_oldal.png);
 }
 
 .jordan1zöld:hover {
-  content: url(jordan-img/jordan\ 1\ zold\ oldal.png);
+  content: url(jordan-img/jordan_1_zold_oldal.png);
 }
 
 .jordan1szürke:hover {
-  content: url(jordan-img/jordan\ 1\ szürke\ oldal.jpg);
+  content: url(jordan-img/jordan_1_szürke_oldal.jpg);
 }
 
 .jordan1smoke:hover {
-  content: url(jordan-img/jordan1\ smoke\ oldal.jpg);
+  content: url(jordan-img/jordan1_smoke_oldal.jpg);
 }
 
 .jordan1yellow:hover {
-  content: url(jordan-img/jordan\ 1\ yellow\ oldal.png);
+  content: url(jordan-img/jordan_1_yellow_oldal.png);
 }
 
 .jordan1obsidian:hover {
-  content: url(jordan-img/jordan\ 1\ obisidan\ oldal.png);
+  content: url(jordan-img/jordan_1_obisidan_oldal.png);
 }
 
 .jordan4millitary:hover {
-  content: url(jordan-img/jordan\ 4\ millitary\ oldal.png);
+  content: url(jordan-img/jordan_4_millitary_oldal.png);
 }
 
 .jordan4kekes:hover {
-  content: url(jordan-img/jordan\ 4\ kekes\ oldal.png);
+  content: url(jordan-img/jordan_4_kekes_oldal.png);
 }
 
 .jordan4pirosas:hover {
-  content: url(jordan-img/jordan\ 4\ piros\ feher\ oldal.png);
+  content: url(jordan-img/jordan_4_piros_feher_oldal.png);
 }
 
 .jordan4yellow:hover {
-  content: url(jordan-img/jordan\ 4\ sarga\ oldal.png);
+  content: url(jordan-img/jordan_4_sarga_oldal.png);
 }
 
 .jordan2feher:hover {
-  content: url(jordan-img/jordan\ 2\ feher\ olda.png);
+  content: url(jordan-img/jordan_2_feher_olda.png);
 }
 
 .jordan2krem:hover {
-  content: url(jordan-img/jordan\ 2\ krem\ oldal.png);
+  content: url(jordan-img/jordan_2_krem_oldal.png);
 }
 
 .jordan2sarga:hover {
-  content: url(jordan-img/jordan\ 2\ sárgás\ oldal.png);
+  content: url(jordan-img/jordan_2_sárgás_oldal.png);
 }
 
 .jordan4millitary2:hover {
-  content: url(jordan-img/jordan\ 4\ millitary\ elol.png);
+  content: url(jordan-img/jordan_4_millitary_oldal.png);
 }
 
 .jordan3kek:hover {
-  content: url(jordan-img/jordan\ 3\ kek\ oldal.png);
+  content: url(jordan-img/jordan_3_kek_oldal.png);
 }
 
 .jordan3sotet:hover {
-  content: url(jordan-img/jordan\ 3\ sotet\ oldal.png);
+  content: url(jordan-img/jordan_3_sotet_oldal.png);
 }
 
 .jordan3zold:hover {
-  content: url(jordan-img/jordan\ 3\ zold\ oldal.png);
+  content: url(jordan-img/jordan_3_zold_oldal.png);
 }
 
 .jordan3vilagos:hover {
-  content: url(jordan-img/jordan\ 3\ vilagos\ oldal.png);
+  content: url(jordan-img/jordan_3_vilagos_oldal.png);
 }
 
 /*dunkok*/
 
 .dunkkek:hover {
-  content: url(dunk-img/dunk\ kek\ oldal.png);
+  content: url(dunk-img/dunk_kek_oldal.png);
 }
 
 .dunkkrem:hover {
-  content: url(dunk-img/dunk\ krem\ oldal.png);
+  content: url(dunk-img/dunk_krem_oldal.png);
 }
 
 .dunkrainbow:hover {
-  content: url(dunk-img/dunk\ rainbow\ oldal.png);
+  content: url(dunk-img/dunk_rainbow_oldal.png);
 }
 
 .dunkszurke:hover {
-  content: url(dunk-img/dunk\ szurke\ oldal.png);
+  content: url(dunk-img/dunk_szurke_oldal.png);
 }
 
 .dunkpiros:hover {
-  content: url(dunk-img/dunk\ piros\ oldal.png);
+  content: url(dunk-img/dunk_piros_oldal.png);
 }
 
 .dunkpink:hover {
-  content: url(dunk-img/dunk\ pink\ oldal.png);
+  content: url(dunk-img/dunk_pink_oldal.png);
 }
 
 .dunkiron:hover {
-  content: url(dunk-img/dunk\ iron\ oldal.png);
+  content: url(dunk-img/dunk_iron_oldal.png);
 }
 
+/*tnek*/
 
+.tnkek:hover {
+  content: url(tn-img/tn_oldal_kek.png);
+}
 
+.tnbarca:hover {
+  content: url(card-img/card-tnfront.jpg);
+}
 
+.tnfeher:hover {
+  content: url(tn-img/tn_feher_oldal.png);
+}
 
+.tnkeknarancs:hover {
+  content: url(tn-img/tn_sotetkek_narancs_oldal.png);
+}
 
+.tnfeka:hover {
+  content: url(tn-img/tn-fekete-oldal.png);
+}
 
+.tnfeherfekete:hover {
+  content: url(tn-img/tn_feher_fekete_oldal.png);
+}
+
+.tnfeketenarancs:hover {
+  content: url(tn-img/tn_narancs_fekete_oldal.png);
+}
 
 
 
@@ -634,7 +659,7 @@ text-decoration: none;
 
 .table-responsive {
   margin-left: 30%;
-  width: 80%;
+  width: 70%;
 
 }
 
