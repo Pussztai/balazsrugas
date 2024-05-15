@@ -4,11 +4,6 @@ a {
 }
 
 
-@media (min-width: 2000px) {
-  .custom-background-white {
-      background-image: none; /* Hide the background image */
-  }
-}
 
 
 
@@ -32,11 +27,20 @@ a {
 }
 
 
-@media (max-width: 1300px) {
+@media (min-width: 2000px) {
   .custom-background-white {
     background-image: none; 
   }
 }
+
+@media (min-width: 2000px) {
+  .custom-background-black {
+    background-image: none; 
+  }
+}
+
+
+
 
 
 a:visited {
@@ -528,6 +532,64 @@ content: url(jordan-img/jordan_1_blue_oldal.png);
 
 
 
+
+
+
+
+
+
+
+
+/*ruhak*/
+.sapka img {
+  height: 500px;
+}
+
+.felso img {
+  height: 500px;
+}
+
+
+.feketesapka:hover {
+  content: url(ruha-img/sapka/fekete_sapka_oldal.png);
+}
+
+.sargasapka:hover {
+  content: url(ruha-img/sapka/sarga_sapka_oldal.png);
+}
+
+.jordansapka:hover {
+  content: url(ruha-img/sapka/jordan_fekete_sapka_hatul.png);
+}
+
+.korsapka:hover {
+  content: url(ruha-img/sapka/fekete_kor_sapka_hatul.png);
+}
+
+.szurkepulcsi:hover {
+  content: url(ruha-img/felso/nike_pulcsi_szurke_hatul.png);
+}
+
+.feketepolo:hover {
+  content: url(ruha-img/felso/fekete_polo_hatul.png);
+}
+
+
+
+.feketeshort:hover {
+  content: url(ruha-img/gatya/fekete_rovidgatya_elol.png);
+}
+
+.szurkemelegito:hover {
+  content: url(ruha-img/gatya/nike_szurkefekete_melegito_elol.png);
+}
+
+
+
+
+
+
+
 @media (max-width: 767px) {
     .card {
       width: 50%;
@@ -906,4 +968,9 @@ video {
   .leiras span {
     padding: 10px;
   }
+}
+
+
+.shield img {
+  width: 30%;
 }
