@@ -856,6 +856,22 @@ text-decoration: none;
   
 }
 
+footer a:link {
+  text-decoration: underline;
+}
+
+
+footer a:visited {
+  color: rgb(218, 215, 215);
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+
+
+
 .table-responsive {
   margin-left: 30%;
   width: 70%;
