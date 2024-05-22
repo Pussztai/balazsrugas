@@ -201,6 +201,7 @@ a:visited {
   
     header {
       margin-top: -130px;
+      
     }
 
     
@@ -317,6 +318,8 @@ a:visited {
   /* header (slider)  !important*/
 
 
+
+
   header {
     margin-top: -210px;
   }
@@ -331,10 +334,13 @@ a:visited {
 
  
   @media (max-width: 340px){
-    header img {
-      width: 500%;
+     header  {
+      width: 120%;
       
     }
+   
+  
+ 
   }
 
 
@@ -386,7 +392,7 @@ a:visited {
 
 
 
-/* cipo mozgatas !important */
+/* cipo mozgatas fooldal !important */
 
 
 .yzRNR:hover {
@@ -402,10 +408,25 @@ a:visited {
 }
 
 
+.jordan4gold:hover {
+  content: url(card-img/card-jordan4-elol.png);
+}
 
+.tntbarca:hover {
+  content: url(card-img/tn_braca_elol.png);
+}
 
+.newbalance:hover {
+  content: url(card-img/card-NBfront.png);
+}
 
+.smoke-elol:hover {
+  content:  url(card-img/jordan_1_smoke_elol.png);
+}
 
+.szurke-elol:hover {
+  content: url(card-img/jordan_1_szürke_elol.png);
+}
 /* jordanek */
 
 
@@ -550,10 +571,14 @@ content: url(jordan-img/jordan_1_blue_oldal.png);
 }
 
 
+.tnobsidian:hover {
+  content: url(tn-img/tn-obsi-oldal.jpg);
+}
 
 
-
-
+.tnfeherdrift:hover {
+  content: url(tn-img/tn-feher-drift-oldal.jpg);
+}
 
 
 
@@ -704,13 +729,29 @@ content: url(ruha-img/zokni/nike_fekete_zokni_kozel.png);
 
 
 
+/* ruhak fooldal */
+
+
+.essential:hover {
+  content: url(streetwear-img/pulcsi_essential_hatul.png);
+  }
+  
+  .barnapóló:hover {
+    content: url(streetwear-img/póló_barna_hatul.png);
+  }
+  
+  .pólómc:hover {
+    content: url(streetwear-img/póló_mc_hatul.png);
+  }
+  
+  .pólóvilagos:hover {
+    content: url(streetwear-img/póló_vilagos_hatul.png);
+  }
+  
 
 
 
-
-
-
-
+/* card media */
 
 
   @media (max-width: 1250px) {
@@ -797,7 +838,6 @@ content: url(ruha-img/zokni/nike_fekete_zokni_kozel.png);
 
 
   @media (max-width: 576px) {
-    /* Adjust font size for smaller screens */
     .szovegelvalasz {
       font-size: 14px;
     }
@@ -808,9 +848,12 @@ content: url(ruha-img/zokni/nike_fekete_zokni_kozel.png);
     }
  
      .navbar {
-      width: 108%;
+      width: 100%;
     }  
   }
+
+
+
 
 
 
@@ -882,11 +925,11 @@ background-color: black;
 
 
 
-@media (max-width: 578px) {
+  @media (max-width: 578px) {
   .table-responsive {
     overflow-x: auto;
-   margin-left: 0%;
-   width: 120%;
+   margin-left: 10%;
+   width: 100%;
    text-align: center;
    align-items: center;
    
@@ -900,13 +943,17 @@ background-color: black;
   }
   .table-bordered td:first-child {
     border-top: none; 
+  } 
+} 
+ 
+
+
+
+@media (max-width: 342px) {
+  header {
+    width: 100%;
   }
 }
-
-
-
-
-
 
 
 
