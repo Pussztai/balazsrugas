@@ -17,16 +17,27 @@ a {
   background-image: url('shoe-buying-img/card-airforce1-removebg-preview.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom 90%;
+  background-position: right bottom 40%;
   background-size: 20%;
 
 }
 
+.custom-background-black {
+  background-image: url('shoe-buying-img/card-af1-black-renovebg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom -10%;
+  background-size: 25%;
 
+}
 
 /* Define default hidden state for the background classes */
 
 .custom-background-white {
+  background-image: none;
+}
+
+.custom-background-black {
   background-image: none;
 }
 
@@ -37,12 +48,19 @@ a {
   .custom-background-white {
     display: block;
     background-image: url('shoe-buying-img/card-airforce1-removebg-preview.png');
-    background-size: 20%; /* Adjusts the background image size */
-    background-position: center bottom 90%;
+    background-size: 25%; /* Adjusts the background image size */
+    background-position: right bottom 0%;
     background-repeat: no-repeat;
   }
 }
 
+.custom-background-black {
+  display: block;
+  background-image: url('shoe-buying-img/card-af1-black-renovebg.png');
+  background-size: 25%; /* Adjusts the background image size */
+  background-position: right bottom -10%;
+  background-repeat: no-repeat;
+}
 
 
 
