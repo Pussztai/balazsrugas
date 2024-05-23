@@ -406,7 +406,9 @@ a:visited {
 .panda:hover {
     content: url(card-img/card-pandaoldal.jpg);
 }
-
+.panda2:hover {
+  content: url(card-img/card-pandaelol.jpg);
+}
 
 .jordan4gold:hover {
   content: url(card-img/card-jordan4-elol.png);
@@ -475,7 +477,7 @@ content: url(jordan-img/jordan_1_blue_oldal.png);
 }
 
 .jordan4yellow:hover {
-  content: url(jordan-img/jordan_4_sarga_oldal.png);
+  content: url(jordan-img/jordan_4_sarga_elol.png);
 }
 
 .jordan2feher:hover {
@@ -537,7 +539,7 @@ content: url(jordan-img/jordan_1_blue_oldal.png);
 }
 
 .dunkiron:hover {
-  content: url(dunk-img/dunk_iron_oldal.png);
+  content: url(dunk-img/dunk_iron_elol.png);
 }
 
 /*tnek*/
