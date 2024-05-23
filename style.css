@@ -3,7 +3,9 @@ a {
   color: black;
 }
 
-
+ body {
+  font-variant: small-caps;
+} 
 
 
 /* hatter cipoknek */
