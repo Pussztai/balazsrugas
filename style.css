@@ -42,7 +42,7 @@ a {
 }
 
 /* Media query for screens 1000px and wider */
-@media (min-width: 1500px) {
+@media (min-width: 1585px) {
  
 
   .custom-background-white {
@@ -54,6 +54,8 @@ a {
   }
 }
 
+@media (min-width: 1600px){
+
 .custom-background-black {
   display: block;
   background-image: url('shoe-buying-img/card-af1-black-renovebg.png');
@@ -62,7 +64,7 @@ a {
   background-repeat: no-repeat;
 }
 
-
+}
 
 @media (min-width: 2000px) {
   .custom-background-white {
@@ -971,6 +973,12 @@ background-color: black;
   } 
   header {
     width: 110%;
+  }
+  .navbar-cipo {
+    width: 100%;
+  }
+  .cipo-footer {
+    width: 80%;
   }
 } 
  
