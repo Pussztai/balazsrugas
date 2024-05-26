@@ -31,7 +31,6 @@ a {
 
 }
 
-/* Define default hidden state for the background classes */
 
 .custom-background-white {
   background-image: none;
@@ -48,7 +47,7 @@ a {
   .custom-background-white {
     display: block;
     background-image: url('shoe-buying-img/card-airforce1-removebg-preview.png');
-    background-size: 25%; /* Adjusts the background image size */
+    background-size: 25%; 
     background-position: right bottom 0%;
     background-repeat: no-repeat;
   }
@@ -59,7 +58,7 @@ a {
 .custom-background-black {
   display: block;
   background-image: url('shoe-buying-img/card-af1-black-renovebg.png');
-  background-size: 25%; /* Adjusts the background image size */
+  background-size: 25%; 
   background-position: right bottom -10%;
   background-repeat: no-repeat;
 }
@@ -95,7 +94,7 @@ a:visited {
 
 .btn-secondary {
     position: relative;
-    left: 500px; /* Move the button 50px to the left */
+    left: 500px; 
     background: none;
     color: white;
     border: none;
@@ -125,22 +124,21 @@ a:visited {
   
   .navbar {
     position: relative;
-    background-color: transparent; /* Set the background color as transparent */
+    background-color: transparent; 
     z-index: 4000;
   
   }
   
   .navbar-brand {
     position: absolute;
-    margin-left: 260px; /* Move the logo 100px to the left */
+    margin-left: 260px; 
     margin-top: -80px;
-    flex: 1; /* Allow the navbar-brand to grow and take up available space */
+    flex: 1; 
     max-width: 200px;
   }
 
   .navbar-brand img {
   display: inline-block;
-  /* margin-top: 15%; */
   }
   
   
@@ -156,8 +154,8 @@ a:visited {
   
   @media (max-width: 768px) {
     .navbar-brand {
-      position: static; /* Reset position for small screens */
-      padding-right: 20px; /* Add padding instead of absolute positioning */
+      position: static; 
+      padding-right: 20px; 
       display: flex;
       align-items: center;
       width: 20px;
@@ -174,9 +172,9 @@ a:visited {
 
 
     .btn-secondary {
-      left: 0; /* Reset positioning for small screens */
+      left: 0; 
       position: static;
-      margin-left: -20px; /* Adjust margin instead of relative positioning */
+      margin-left: -20px; 
       margin-top: -40px;
     }
 
@@ -218,7 +216,7 @@ a:visited {
     }
   
     .btn-secondary {
-      left: 0; /* Reset positioning for small screens */
+      left: 0; 
     }
   
     header {
@@ -941,7 +939,6 @@ footer a {
 
 .table-responsive {
   margin-left: 30%;
-  /* width: 100%; */
 background-color: black;
 }
 
