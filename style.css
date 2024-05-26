@@ -939,9 +939,12 @@ footer a {
 
 .table-responsive {
   margin-left: 30%;
-  width: 70%;
+  /* width: 100%; */
 background-color: black;
 }
+
+
+
 
 
 
@@ -966,10 +969,17 @@ background-color: black;
   .table-bordered td:first-child {
     border-top: none; 
   } 
+  header {
+    width: 110%;
+  }
 } 
  
 
-
+@media (max-width: 322px) {
+  header {
+    width: 100%;
+  }
+}
 
 @media (max-width: 342px) {
   header {
