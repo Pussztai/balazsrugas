@@ -3,6 +3,87 @@ a {
   color: black;
 }
 
+ body {
+  font-variant: small-caps;
+} 
+
+
+/* hatter cipoknek */
+
+
+
+
+.custom-background-white {
+  background-image: url('shoe-buying-img/card-airforce1-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom 40%;
+  background-size: 20%;
+
+}
+
+.custom-background-black {
+  background-image: url('shoe-buying-img/card-af1-black-renovebg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom -10%;
+  background-size: 25%;
+
+}
+
+
+.custom-background-white {
+  background-image: none;
+}
+
+.custom-background-black {
+  background-image: none;
+}
+
+/* Media query for screens 1000px and wider */
+@media (min-width: 1585px) {
+ 
+
+  .custom-background-white {
+    display: block;
+    background-image: url('shoe-buying-img/card-airforce1-removebg-preview.png');
+    background-size: 25%; 
+    background-position: right bottom 0%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1600px){
+
+.custom-background-black {
+  display: block;
+  background-image: url('shoe-buying-img/card-af1-black-renovebg.png');
+  background-size: 25%; 
+  background-position: right bottom -10%;
+  background-repeat: no-repeat;
+}
+
+}
+
+@media (min-width: 2000px) {
+  .custom-background-white {
+    background-image: none; 
+  }
+}
+
+@media (min-width: 2000px) {
+  .custom-background-black {
+    background-image: none; 
+  }
+}
+
+
+
+
+
+a:visited {
+  color: grey;
+}
 
 
 /* navbar  !important*/
@@ -13,7 +94,7 @@ a {
 
 .btn-secondary {
     position: relative;
-    left: 500px; /* Move the button 50px to the left */
+    left: 500px; 
     background: none;
     color: white;
     border: none;
@@ -43,74 +124,111 @@ a {
   
   .navbar {
     position: relative;
-    background-color: transparent; /* Set the background color as transparent */
+    background-color: transparent; 
     z-index: 4000;
+  
   }
   
   .navbar-brand {
     position: absolute;
-    margin-left: 260px; /* Move the logo 100px to the left */
-    margin-top: -50px;
-    flex: 1; /* Allow the navbar-brand to grow and take up available space */
+    margin-left: 260px; 
+    margin-top: -80px;
+    flex: 1; 
     max-width: 200px;
+  }
+
+  .navbar-brand img {
+  display: inline-block;
   }
   
   
   
+
+
+
+ 
+
+
   
   
   
   @media (max-width: 768px) {
     .navbar-brand {
-      position: static; /* Reset position for small screens */
-      padding-left: -20px; /* Add padding instead of absolute positioning */
+      position: static; 
+      padding-right: 20px; 
       display: flex;
       align-items: center;
       width: 20px;
       max-width: 160px;
       margin-left: 0;
+      
     }
+    
   
     .navbar-brand img {
-      margin-left: -65px;
+      margin-left: -1px;
+      margin-top: -40px;
     }
-  
+
+
     .btn-secondary {
-      left: 0; /* Reset positioning for small screens */
+      left: 0; 
       position: static;
-      margin-left: -20px; /* Adjust margin instead of relative positioning */
+      margin-left: -20px; 
+      margin-top: -40px;
+    }
+
+    .btn-primary {
+      margin-top: -40px;
+    }
+
+    .btn-third {
+      margin-top: -40px;
+      
     }
   
     header {
-      margin-top: -130px;
+      margin-top: -110px;
     }
+
+    header img {
+      margin-top: 86px;
+    }
+
+    .carousel-control-prev.kovi {
+      margin-top: 35%;
+    } 
+    
+    .carousel-control-next.kovi {
+      margin-top: 35%;
+    }
+
+ 
+
+
   }
   
   @media (max-width: 2560px) {
     .navbar-brand {
-      position: static; /* Reset position for small screens */
-      padding-left: 20px; /* Add padding instead of absolute positioning */
+      position: static; 
+      padding-left: 20px; 
       align-items: center;
     }
   
     .btn-secondary {
-      left: 0; /* Reset positioning for small screens */
+      left: 0; 
     }
   
     header {
       margin-top: -130px;
+      
     }
+
+    
   }
   
-  @media (max-width: 986px) {
-    .navbar-brand {
-      position: static; /* Reset position for small screens */
-      padding-left: 20px; /* Add padding instead of absolute positioning */
-      /* display: flex; */
-      align-items: center;
-      margin-left: 0;
-    }
-  }
+
+
 
 
 
@@ -120,10 +238,6 @@ a {
 
 /* sneaker dropdown */
 
-
-ul .dropdown-menu.show {
-  
-}
 
 
 
@@ -151,6 +265,9 @@ ul .dropdown-menu.show {
   li {
     font-size: 40px;
     cursor: pointer;
+    transition: 0.3s ease;
+    
+
   }
   
   li:hover {
@@ -158,7 +275,7 @@ ul .dropdown-menu.show {
   
   }
   
-  
+
   
   .kosar {
     margin-left: 42%;
@@ -221,8 +338,10 @@ ul .dropdown-menu.show {
   /* header (slider)  !important*/
 
 
+
+
   header {
-    margin-top: -100px;
+    margin-top: -210px;
   }
 
  header span .custom2{
@@ -231,13 +350,19 @@ ul .dropdown-menu.show {
   header img {
     width: 100%;
   }
+
+
  
   @media (max-width: 340px){
-    header img {
-      width: 500%;
+     header  {
+      width: 120%;
       
     }
+   
+  
+ 
   }
+
 
 
   /* cardok 1 resz !important*/
@@ -256,6 +381,7 @@ ul .dropdown-menu.show {
     /* width: 25%; */
     width: 26rem;
 }
+
 
 
 /* különleges sor */
@@ -286,7 +412,7 @@ ul .dropdown-menu.show {
 
 
 
-/* cipo mozgatas !important */
+/* cipo mozgatas fooldal !important */
 
 
 .yzRNR:hover {
@@ -300,6 +426,230 @@ ul .dropdown-menu.show {
 .panda:hover {
     content: url(card-img/card-pandaoldal.jpg);
 }
+.panda2:hover {
+  content: url(card-img/card-pandaelol.jpg);
+}
+
+.jordan4gold:hover {
+  content: url(card-img/card-jordan4-elol.png);
+}
+
+.tntbarca:hover {
+  content: url(card-img/tn_braca_elol.png);
+}
+
+.newbalance:hover {
+  content: url(card-img/card-NBfront.png);
+}
+
+.smoke-elol:hover {
+  content:  url(card-img/jordan_1_smoke_elol.png);
+}
+
+.szurke-elol:hover {
+  content: url(card-img/jordan_1_szürke_elol.png);
+}
+/* jordanek */
+
+
+.jordan1red:hover {
+  content: url(jordan-img/jordan_1_red_oldal.png);
+}
+
+.jordan1b:hover {
+content: url(jordan-img/jordan_1_blue_oldal.png);
+}
+
+.jordan1fxp:hover {
+  content: url(jordan-img/jordan_1_fekete_piros_oldal.png);
+}
+
+.jordan1zöld:hover {
+  content: url(jordan-img/jordan_1_zold_oldal.png);
+}
+
+.jordan1szürke:hover {
+  content: url(jordan-img/jordan_1_szürke_oldal.jpg);
+}
+
+.jordan1smoke:hover {
+  content: url(jordan-img/jordan1_smoke_oldal.jpg);
+}
+
+.jordan1yellow:hover {
+  content: url(jordan-img/jordan_1_yellow_oldal.png);
+}
+
+.jordan1obsidian:hover {
+  content: url(jordan-img/jordan_1_obisidan_oldal.png);
+}
+
+.jordan4millitary:hover {
+  content: url(jordan-img/jordan_4_millitary_oldal.png);
+}
+
+.jordan4kekes:hover {
+  content: url(jordan-img/jordan_4_kekes_oldal.png);
+}
+
+.jordan4pirosas:hover {
+  content: url(jordan-img/jordan_4_piros_feher_oldal.png);
+}
+
+.jordan4yellow:hover {
+  content: url(jordan-img/jordan_4_sarga_elol.png);
+}
+
+.jordan2feher:hover {
+  content: url(jordan-img/jordan_2_feher_olda.png);
+}
+
+.jordan2krem:hover {
+  content: url(jordan-img/jordan_2_krem_oldal.png);
+}
+
+.jordan2sarga:hover {
+  content: url(jordan-img/jordan_2_sárgás_oldal.png);
+}
+
+.jordan4millitary2:hover {
+  content: url(jordan-img/jordan_4_millitary_oldal.png);
+}
+
+.jordan3kek:hover {
+  content: url(jordan-img/jordan_3_kek_oldal.png);
+}
+
+.jordan3sotet:hover {
+  content: url(jordan-img/jordan_3_sotet_oldal.png);
+}
+
+.jordan3zold:hover {
+  content: url(jordan-img/jordan_3_zold_oldal.png);
+}
+
+.jordan3vilagos:hover {
+  content: url(jordan-img/jordan_3_vilagos_oldal.png);
+}
+
+/*dunkok*/
+
+.dunkkek:hover {
+  content: url(dunk-img/dunk_kek_oldal.png);
+}
+
+.dunkkrem:hover {
+  content: url(dunk-img/dunk_krem_oldal.png);
+}
+
+.dunkrainbow:hover {
+  content: url(dunk-img/dunk_rainbow_oldal.png);
+}
+
+.dunkszurke:hover {
+  content: url(dunk-img/dunk_szurke_oldal.png);
+}
+
+.dunkpiros:hover {
+  content: url(dunk-img/dunk_piros_oldal.png);
+}
+
+.dunkpink:hover {
+  content: url(dunk-img/dunk_pink_oldal.png);
+}
+
+.dunkiron:hover {
+  content: url(dunk-img/dunk_iron_elol.png);
+}
+
+/*tnek*/
+
+.tnkek:hover {
+  content: url(tn-img/tn_oldal_kek.png);
+}
+
+.tnbarca:hover {
+  content: url(card-img/card-tnfront.jpg);
+}
+
+.tnfeher:hover {
+  content: url(tn-img/tn_feher_oldal.png);
+}
+
+.tnkeknarancs:hover {
+  content: url(tn-img/tn_sotetkek_narancs_oldal.png);
+}
+
+.tnfeka:hover {
+  content: url(tn-img/tn-fekete-oldal.png);
+}
+
+.tnfeherfekete:hover {
+  content: url(tn-img/tn_feher_fekete_oldal.png);
+}
+
+.tnfeketenarancs:hover {
+  content: url(tn-img/tn_narancs_fekete_oldal.png);
+}
+
+
+.tnobsidian:hover {
+  content: url(tn-img/tn-obsi-oldal.jpg);
+}
+
+
+.tnfeherdrift:hover {
+  content: url(tn-img/tn-feher-drift-oldal.jpg);
+}
+
+
+
+
+
+
+/*ruhak*/
+.sapka img {
+  height: 500px;
+}
+
+.felso img {
+  height: 500px;
+}
+
+
+.feketesapka:hover {
+  content: url(ruha-img/sapka/fekete_sapka_oldal.png);
+}
+
+.sargasapka:hover {
+  content: url(ruha-img/sapka/sarga_sapka_oldal.png);
+}
+
+.jordansapka:hover {
+  content: url(ruha-img/sapka/jordan_fekete_sapka_hatul.png);
+}
+
+.korsapka:hover {
+  content: url(ruha-img/sapka/fekete_kor_sapka_hatul.png);
+}
+
+.szurkepulcsi:hover {
+  content: url(ruha-img/felso/nike_pulcsi_szurke_hatul.png);
+}
+
+.feketepolo:hover {
+  content: url(ruha-img/felso/fekete_polo_hatul.png);
+}
+
+
+
+.feketeshort:hover {
+  content: url(ruha-img/gatya/fekete_rovidgatya_elol.png);
+}
+
+.szurkemelegito:hover {
+  content: url(ruha-img/gatya/nike_szurkefekete_melegito_elol.png);
+}
 
 
 
@@ -307,16 +657,133 @@ ul .dropdown-menu.show {
 
 
 
-@media (max-width: 767px) {
-    .card {
-      width: 50%;
-    }
+
+
+
+
+
+/* ruhak */
+
+
+
+
+.sapka img {
+  height: 300px;
+}
+
+.felso img {
+  height: 400px;
+}
+
+.nadrag img {
+  height: 520px;
+}
+
+
+.zokni img {
+  height: 450px;
+}
+
+.feketesapka:hover {
+  content: url(ruha-img/sapka/fekete_sapka_oldal.png);
+}
+
+.sargasapka:hover {
+  content: url(ruha-img/sapka/sarga_sapka_oldal.png);
+}
+
+.jordansapka:hover {
+  content: url(ruha-img/sapka/jordan_fekete_sapka_hatul.png);
+}
+
+.korsapka:hover {
+  content: url(ruha-img/sapka/fekete_kor_sapka_hatul.png);
+}
+
+.szurkepulcsi:hover {
+  content: url(ruha-img/felso/nike_pulcsi_szurke_hatul.png);
+}
+
+.feketepolo:hover {
+  content: url(ruha-img/felso/fekete_polo_hatul.png);
+}
+
+.jordanpulcsi:hover {
+  content: url(ruha-img/felso/jordan_pulcsi_kozel.png);
+}
+
+.jordantop:hover {
+  content: url(ruha-img/felso/jordan_top_hatul.png);
+}
+
+.feketeshort:hover {
+  content: url(ruha-img/gatya/fekete_rovidgatya_elol.png);
+}
+
+.szurkemelegito:hover {
+  content: url(ruha-img/gatya/szurke_gaty_hatul.png);
+}
+
+.nikepro:hover {
+  content: url(ruha-img/gatya/nike_pro_hatul.png);
+}
+
+.nikebaggy:hover {
+  content: url(ruha-img/gatya/nike_baggy_gatya_hatul.png);
+}
+
+.nikefeherzokni:hover {
+content: url(ruha-img/zokni/nike_feher_zokni_hatul.png);
+}
+
+.jordanzokni:hover {
+  content: url(ruha-img/zokni/jordan_zokni_hatul.png);
+}
+
+.j23zokni:hover {
+  content: url(ruha-img/zokni/23_zokni_hatul.png);
+}
+
+.nikefeketezokni:hover {
+content: url(ruha-img/zokni/nike_fekete_zokni_kozel.png);
+}
+
+
+
+
+/* ruhak fooldal */
+
+
+.essential:hover {
+  content: url(streetwear-img/pulcsi_essential_hatul.png);
   }
+  
+  .barnapóló:hover {
+    content: url(streetwear-img/póló_barna_hatul.png);
+  }
+  
+  .pólómc:hover {
+    content: url(streetwear-img/póló_mc_hatul.png);
+  }
+  
+  .pólóvilagos:hover {
+    content: url(streetwear-img/póló_vilagos_hatul.png);
+  }
+  
+
+
+
+/* card media */
+
 
   @media (max-width: 1250px) {
     .card {
       width: 50%;
+      margin-left: -4%;
     }
+     .card-title {
+      width: 134%;
+    } 
   }
 
 
@@ -356,11 +823,7 @@ ul .dropdown-menu.show {
     margin-top: 10%;
   }
 
-/* section .card-title {
-text-align: center;
-font-weight: bold;
-font-size: 2rem;
-} */
+
 
 
 
@@ -397,11 +860,22 @@ font-size: 2rem;
 
 
   @media (max-width: 576px) {
-    /* Adjust font size for smaller screens */
     .szovegelvalasz {
       font-size: 14px;
     }
+
+    .text-wrapper {
+
+      margin-left: 10%;
+    }
+ 
+     .navbar {
+      width: 100%;
+    }  
   }
+
+
+
 
 
 
@@ -412,7 +886,13 @@ font-size: 2rem;
   }
 
 
+
 /* footer !important */
+
+
+
+
+ 
 
 
   footer {
@@ -436,42 +916,81 @@ text-decoration: none;
 
 .customtab {
   width: 60%;
-  /* margin-left: 23%; */
   margin-top: 10%;
 
   
 }
 
-.table-responsive {
-  margin-left: 30%;
-  width: 80%;
-
+footer a:link {
+  text-decoration: underline;
 }
 
 
-@media (max-width: 578px) {
+footer a:visited {
+  color: rgb(218, 215, 215);
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+
+
+
+.table-responsive {
+  margin-left: 30%;
+background-color: black;
+}
+
+
+
+
+
+
+
+
+  @media (max-width: 578px) {
   .table-responsive {
     overflow-x: auto;
-   margin-left: 0%;
+   margin-left: 10%;
    width: 100%;
+   text-align: center;
+   align-items: center;
+   
   }
   .table-bordered td,
   .table-bordered th {
-    border: none; /* Optional: Remove borders for better appearance */
+    border: none; 
   }
   .table-bordered td {
-    display: block; /* Display table cells as blocks */
+    display: block; 
   }
   .table-bordered td:first-child {
-    border-top: none; /* Optional: Remove top border for the first cell in each row */
+    border-top: none; 
+  } 
+  header {
+    width: 110%;
+  }
+  .navbar-cipo {
+    width: 100%;
+  }
+  .cipo-footer {
+    width: 80%;
+  }
+} 
+ 
+
+@media (max-width: 322px) {
+  header {
+    width: 100%;
   }
 }
 
-
-
-
-
-
+@media (max-width: 342px) {
+  header {
+    width: 100%;
+  }
+}
 
 
 
@@ -496,14 +1015,202 @@ text-decoration: none;
 } 
 
 
-/* jordan 1 resz  */
+
+/* balazsrugas moving */
 
 
-/* .jordan1card  {
-  margin-left: 6%;
-} */
+.text-wrapper h1 {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vw; 
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  padding: 0 10%; 
+  letter-spacing: 1px;
+  animation: move-rtl 6000ms linear infinite;
+} 
+
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+ 
+}
+
+@keyframes move-rtl {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
 
 
-header div img {
-  height: 1000px;
+
+
+.background-containerr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(card-img/card-airforce1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+@media (max-width: 730px) {
+
+
+
+  .text-wrapper {
+    width: 110%;
+  margin-right: 4%;
+  text-align: center;
+  align-items: center;
+  
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AF 1 oldal !important */
+
+
+/* af1 kepek */
+
+
+
+
+
+
+
+.jobb {
+   float: right; 
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.leiras span {
+  padding: 10px 20px  ;
+color: black;
+  margin: 5px;
+background-color: rgb(255, 255, 255);
+border-radius: 6px;
+border: 1px solid black;
+cursor: pointer;
+transition: background-color 0.8s ease;
+}
+
+
+
+.leiras span:hover {
+  background-color: rgb(233, 230, 230);
+}
+
+
+
+.leiras .meretek {
+  margin-top: 15%;
+}
+
+
+#aktiv {
+  border: 1px solid black;
+}
+
+.cipok {
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* shieldek */
+
+.shieldek {
+  margin-top: 20%;
+
+}
+
+.shield {
+  height: 90px;
+  width: 70%;
+}
+
+.checkbox {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.kepp {
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+.shieldleiras {
+  margin-left: 120px;
+  margin-top: -48px;
+}
+
+.shieldara {
+  margin-left: 120px;
+}
+
+
+
+/* meretek */
+
+@media (max-width: 730px) {
+  .leiras span {
+    padding: 10px;
+  }
+}
+
+
+.shield img {
+  width: 30%;
 }
